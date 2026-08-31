@@ -1,39 +1,57 @@
-local RarityConfig = {
-	Common = {
-		Chance = 60,
-		Multiplier = 1,
-		Color = Color3.fromRGB(170, 170, 170)
+return {
+
+	Cow = {
+		Name = "Cow",
+		Produce = "Milk Jar",
+		Rarity = "Common",
+		Color = Color3.fromRGB(255, 255, 255),
+		Chance = 40,
+		SellPrice = 25,
 	},
 
-	Uncommon = {
-		Chance = 25,
-		Multiplier = 1.5,
-		Color = Color3.fromRGB(85, 255, 127)
+	Bull = {
+		Name = "Bull",
+		Produce = "Raw Meat",
+		Rarity = "Common",
+		Color = Color3.fromRGB(255, 255, 255),
+		Chance = 35,
+		SellPrice = 30,
 	},
 
-	Rare = {
+	Chicken = {
+		Name = "Chicken",
+		Produce = "Raw Chicken, Raw Egg",
+		Rarity = "Uncommon",
+		Color = Color3.fromRGB(170, 255, 0),
+		Chance = 20,
+		SellPrice = 40,
+	},
+
+	Pig = {
+		Name = "Pig",
+		Produce = "Raw Meat",
+		Rarity = "Uncommon",
+		Color = Color3.fromRGB(170, 255, 0),
+		Chance = 20,
+		SellPrice = 50,
+	},
+
+	Chick = {
+		Name = "Chick",
+		Produce = "Raw Egg",
+		Rarity = "Uncommon",
+		Color = Color3.fromRGB(170, 255, 0),
+		Chance = 15,
+		SellPrice = 35,
+	},
+
+	Sheep = {
+		Name = "Sheep",
+		Produce = "Wool",
+		Rarity = "Uncommon",
+		Color = Color3.fromRGB(170, 255, 0),
 		Chance = 10,
-		Multiplier = 2,
-		Color = Color3.fromRGB(85, 170, 255)
+		SellPrice = 60,
 	},
 
-	Epic = {
-		Chance = 4,
-		Multiplier = 3,
-		Color = Color3.fromRGB(170, 85, 255)
-	},
-
-	Legendary = {
-		Chance = 0.9,
-		Multiplier = 5,
-		Color = Color3.fromRGB(255, 170, 0)
-	},
-
-	Mythic = {
-		Chance = 0.1,
-		Multiplier = 10,
-		Color = Color3.fromRGB(255, 85, 127)
-	}
 }
-
-return RarityConfig
